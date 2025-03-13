@@ -1,16 +1,16 @@
-browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
+chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   if (request.type === 'tabsCreate') {
-    browser.tabs
+    chrome.tabs
         .create({
           url: request.options.url,
           active: request.options.active,
           openerTabId: sender.tab.id,
         })
         .then((tab) => {
-          if (!browser.tabs.group) {
+          if (!chrome.tabs.group) {
             return;
           }
-          return browser.tabs.group({
+          return chrome.tabs.group({
             tabIds: tab.id,
             groupId: sender.tab.groupId,
           });
