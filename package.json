@@ -1,15 +1,16 @@
 {
   "name": "web-search-navigator",
+  "version": "0.1.0",
   "description": "Keyboard shortcuts for Google™ search.",
-  "repository": "https://github.com/infokiller/web-search-navigator",
-  "author": "https://github.com/infokiller",
+  "repository": "https://github.com/win-chanma/web-search-navigator",
+  "author": "https://github.com/win-chanma/",
   "contributors": [
     {
-      "name": "infokiller"
+      "name": "win-chanma"
     },
     {
-      "name": "Michal Novák",
-      "url": "https://www.weborama.cz/"
+      "name": "Takashi Ueki",
+      "url": ""
     }
   ],
   "license": "MIT",
