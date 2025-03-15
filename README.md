@@ -1,4 +1,4 @@
-# ![Logo](./src/icon48.png?raw=true) Web Search Navigator
+# ![Logo](./src/icon128.png?raw=true) Web Search Navigator
 
 [![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/cohamjploocgoejdfanacfgkhjkhdkek?label=Chrome)](https://chrome.google.com/webstore/detail/web-search-navigator/cohamjploocgoejdfanacfgkhjkhdkek)
 [![Mozilla Add-on](https://img.shields.io/amo/rating/web-search-navigator?label=Firefox)](https://addons.mozilla.org/en-US/firefox/addon/web-search-navigator/)
